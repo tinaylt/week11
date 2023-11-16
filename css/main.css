@@ -56,3 +56,24 @@ article:first-of-type {
 #done h2 {
     color: green;
 }
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 6px 8px;
+    text-transform: uppercase;
+}
+
+.progress li:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.do li:nth-child(even) {
+    background-color: rgba(200, 255, 200, 0.3);
+}
+
+.fin li:nth-child(odd) {
+    background-color: rgba(150, 150, 250, 0.3);
+}
